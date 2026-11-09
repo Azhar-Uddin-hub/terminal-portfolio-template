@@ -1,0 +1,13 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.scaffold-backup": true
+  },
+  "search.exclude": {
+    "**/.scaffold-backup": true,
+    "**/.next": true,
+    "**/node_modules": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}

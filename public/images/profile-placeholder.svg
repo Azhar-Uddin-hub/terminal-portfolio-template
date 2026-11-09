@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="960" viewBox="0 0 780 960" fill="none">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#1d3525" stroke-width="1"/></pattern>
+    <radialGradient id="ambient"><stop stop-color="#19492b"/><stop offset="1" stop-color="#101b14"/></radialGradient>
+    <linearGradient id="figure" x1="390" y1="250" x2="390" y2="850" gradientUnits="userSpaceOnUse"><stop stop-color="#385243"/><stop offset="1" stop-color="#15231b"/></linearGradient>
+  </defs>
+  <path fill="#101b14" d="M0 0h780v960H0z"/>
+  <path fill="url(#ambient)" d="M0 0h780v960H0z"/>
+  <path fill="url(#grid)" d="M0 0h780v960H0z"/>
+  <circle cx="390" cy="382" r="244" stroke="#2a5c3b" stroke-width="1"/>
+  <circle cx="390" cy="382" r="280" stroke="#244b32" stroke-dasharray="4 12"/>
+  <path d="M112 382h70m416 0h70M390 103v54m0 451v54" stroke="#497b54"/>
+  <path d="M164 808c0-134 82-218 226-218s226 84 226 218v152H164V808Z" fill="url(#figure)" stroke="#547060" stroke-width="2"/>
+  <rect x="348" y="491" width="84" height="135" rx="40" fill="#2b4535" stroke="#547060" stroke-width="2"/>
+  <path d="M272 378c0-86 43-139 118-139s118 53 118 139v55c0 76-53 143-118 143s-118-67-118-143v-55Z" fill="url(#figure)" stroke="#547060" stroke-width="2"/>
+  <path d="M267 390c-23-106 33-182 123-182s146 76 123 182c-14-48-31-77-58-94-54 38-107 47-170 49l-18 45Z" fill="#13261a" stroke="#547060" stroke-width="2"/>
+  <path d="m298 613 92 132 92-132M390 745v174M219 814h88m166 0h88" stroke="#547060" stroke-width="2"/>
+  <path d="M48 68V48h20m644 0h20v20M48 842v20h20m644 0h20v-20" stroke="#00ff41" stroke-width="2"/>
+  <text x="390" y="138" fill="#82a78c" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="4">YOUR PORTRAIT HERE</text>
+  <text x="390" y="894" fill="#82a78c" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="3">LOCAL PLACEHOLDER / NO PHOTO ADDED</text>
+</svg>
