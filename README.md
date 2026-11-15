@@ -75,8 +75,9 @@ required on the first build.
    The example address is illustrative; use your actual address.
 5. Add your verified production address to your professional profiles.
 
-For local metadata checks, copy `.env.example` to `.env.local` and set your
-actual public URL there. Leave it empty until a real deployment exists.
+For local metadata checks, create a `.env.local` file in the project root and
+set `NEXT_PUBLIC_SITE_URL` to your deployed site's HTTPS address. You can skip
+this file when previewing the site locally.
 
 This is a Next.js application; uploading the source directly to GitHub Pages
 does not deploy it. Use a host that supports Next.js, or separately configure
